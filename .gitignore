@@ -1,0 +1,17 @@
+bin/
+obj/
+.tmp/
+*.user
+*.suo
+*.swp
+*.userprefs
+.vs/
+.vscode/*.log
+.vscode/*.db
+*.code-workspace
+# Local SDK artifacts
+docs/
+.vscode/
+*.apk
+*.aar
+*.pdf

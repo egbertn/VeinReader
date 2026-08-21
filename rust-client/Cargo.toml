@@ -1,0 +1,14 @@
+[package]
+name = "handlezer-rust-client"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Sync-first Rust client for the Handlezer REST API"
+
+[dependencies]
+chrono = { version = "0.4", features = ["serde"] }
+reqwest = { version = "0.12", default-features = false, features = ["blocking", "json", "rustls-tls"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "1.0"
+uuid = { version = "1.10", features = ["serde", "v4"] }
